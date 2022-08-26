@@ -1,4 +1,5 @@
 # ProyectoVinculacionBuenPastor
+**Integrantes:**
 Sebastian Riofrio (Líder)
 Cindy Chiriguaya
 Franklin Campoverde
