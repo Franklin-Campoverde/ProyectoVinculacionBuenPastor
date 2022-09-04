@@ -44,7 +44,7 @@ public class Ins_Personal extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         Jtf_Telefono = new javax.swing.JTextField();
-        Jcb_Religion = new javax.swing.JComboBox<>();
+        Jcb_Religion = new javax.swing.JComboBox<String>();
         jLabel10 = new javax.swing.JLabel();
         Jtf_Correo = new javax.swing.JTextField();
         Jbtn_inscCurso = new javax.swing.JButton();
@@ -61,7 +61,7 @@ public class Ins_Personal extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         Jta_problemasSalud = new javax.swing.JTextArea();
         jLabel16 = new javax.swing.JLabel();
-        Jcb_estadoCivilPadre = new javax.swing.JComboBox<>();
+        Jcb_estadoCivilPadre = new javax.swing.JComboBox<String>();
         jLabel17 = new javax.swing.JLabel();
         Jtf_trabajoMadre = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
@@ -69,7 +69,7 @@ public class Ins_Personal extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
         Jtf_telefonoMadre = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
-        Jcb_estadoCivilMadre = new javax.swing.JComboBox<>();
+        Jcb_estadoCivilMadre = new javax.swing.JComboBox<String>();
         Jbtn_datoSocioEconomico = new javax.swing.JButton();
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
@@ -132,7 +132,7 @@ public class Ins_Personal extends javax.swing.JFrame {
             }
         });
 
-        Jcb_Religion.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Cristiano", "Católico", "Ateo", "Testigo de Jehová" }));
+        Jcb_Religion.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Cristiano", "Católico", "Ateo", "Testigo de Jehová" }));
 
         jLabel10.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel10.setText("Correo:");
@@ -206,7 +206,7 @@ public class Ins_Personal extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel16.setText("Estado civil:");
 
-        Jcb_estadoCivilPadre.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Casado", "Soltero", "Divorciado", "Union de hecho", "Viudo" }));
+        Jcb_estadoCivilPadre.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Casado", "Soltero", "Divorciado", "Union de hecho", "Viudo" }));
 
         jLabel17.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel17.setText("Lugar de trabajo de la madre");
@@ -238,7 +238,7 @@ public class Ins_Personal extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         jLabel20.setText("Estado civil:");
 
-        Jcb_estadoCivilMadre.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Casado", "Soltero", "Divorciado", "Union de hecho", "Viudo" }));
+        Jcb_estadoCivilMadre.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Casado", "Soltero", "Divorciado", "Union de hecho", "Viudo" }));
 
         Jbtn_datoSocioEconomico.setBackground(new java.awt.Color(71, 82, 94));
         Jbtn_datoSocioEconomico.setFont(new java.awt.Font("Trebuchet MS", 0, 14)); // NOI18N
