@@ -422,7 +422,7 @@ public class Ins_DatoImportantes extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 1150, 690));
 
-        jLabImagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buen-pastor.jpg"))); // NOI18N
+        jLabImagen.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/buenpastor.jpg"))); // NOI18N
         getContentPane().add(jLabImagen, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1350, 800));
 
         jPanelColor.setBackground(new java.awt.Color(109, 146, 199));
